@@ -1,0 +1,15 @@
+{
+  "name": "baryon-todos",
+  "owner": {
+    "name": "Baryon AI Laboratory",
+    "url": "https://github.com/baryonlabs"
+  },
+  "plugins": [
+    {
+      "name": "baryon-todos",
+      "source": "./",
+      "description": "MCP-powered Baryon H-remote claim tracker integration for Claude Code. List pool, create dynamic tasks, inspect claim history, override task records.",
+      "version": "0.1.0"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "baryon-todos": {
+      "command": "npx",
+      "args": ["-y", "@baryonlabs/baryon-todos-mcp"],
+      "env": {
+        "TRACKER_BASE_URL": "${TRACKER_BASE_URL:-https://baryon-todo-dashboard.fly.dev}",
+        "TRACKER_USER": "${TRACKER_USER:-tracker}",
+        "TRACKER_PASSWORD": "${TRACKER_PASSWORD}"
+      }
+    }
+  }
+}

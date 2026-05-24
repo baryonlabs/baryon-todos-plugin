@@ -1,0 +1,23 @@
+{
+  "name": "baryon-todos",
+  "version": "0.1.0",
+  "description": "Baryon H-remote claim tracker plugin for Claude Code — list pool, create dynamic tasks, inspect claim history, save task records via MCP server.",
+  "author": {
+    "name": "Baryon AI Laboratory",
+    "url": "https://github.com/baryonlabs"
+  },
+  "homepage": "https://github.com/baryonlabs/baryon-todos-plugin",
+  "repository": "https://github.com/baryonlabs/baryon-todos-plugin",
+  "license": "MIT",
+  "keywords": [
+    "baryon",
+    "todos",
+    "h-remote",
+    "claim-tracker",
+    "task-management",
+    "mcp",
+    "claude-code"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}
