@@ -55,7 +55,7 @@ Register in your MCP client (`claude_desktop_config.json` or via the plugin):
 | `get_task_record` | "이 업무 결과/증빙 보여줘" — args: tid |
 | `save_task_record` | "이 업무 결과 admin이 수정" — args: tid + evidence/result/customDesc |
 | `list_task_messages` | "이 업무 채팅 보여줘" — args: tid |
-| `list_naver_roles` | "네이버 유저 role 목록" (superadmin 필요) |
+| `list_user_roles` | "사용자 role 목록" (superadmin 필요) |
 
 ## TID format
 
